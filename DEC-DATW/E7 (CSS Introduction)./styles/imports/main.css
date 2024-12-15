@@ -1,0 +1,49 @@
+
+body{/*DEFINIMOS LA TIPOGRAFIA DE TODOS LOS ELEMENTOS QUE CUELGUEN DEL BODY.*/ 
+    font-family: sans-serif;
+    margin: 0;
+}
+
+main{
+    margin: 10px;
+}
+
+h1 { /*DEFINIMOS TODOS LOS ESTILOS DE ETIQUETAS H1.*/ 
+    color: rgb(179, 190, 190);
+}
+
+h1, h2, h3, h4, h5, h6{
+    /*DEFINIMOS ESTILOS DE LAS FUENTES DE LAS CABECERAS.*/ 
+    color: black;
+    font-family: serif;
+}
+
+h1{ /*DECLARAMOS Y SOBREESCRIBIMOS LOS ESTILOS DE LOS H1.*/ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.init{ /*DEFINIMOS LOS ESTILOS QUE TENDRA LOS ELEMENTOS DE LA CLASE INIT.*/ 
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1.init{ /*APLICAMOS LA TIPOGRAFIA DEL H1 SOBRE EL INIT.*/ 
+    color: darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2.int{
+    background-color: aqua;
+    color: #fff;
+}
+
+h2{
+    background-color: blueviolet;
+}
+
+h3.init{
+    background-color: blanchedalmond;
+}
+.img-fluid{
+    max-width: 100% /*SU FUNCION ES PARA ADAPTARSE AL ANCHO DEL NAVEGADOR.*/;
+}

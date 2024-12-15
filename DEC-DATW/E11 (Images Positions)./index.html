@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11 - Posicionamiento de imagenes</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Im&aacute;genes de fondo</h1>
+
+    <p>Una imagen por defecto se muestra desde la parte superior de la izquierda ocupando su tamaño real.</p>
+    <div class="bg bg-1">
+    </div>
+
+    <p>Una imagen pro defecto en un fondo de elemento se replicara en ambos ejees para cubrir todo el elemeto</p>
+    <div class="bg bg-2">
+    </div>
+
+    <p>No queremos que se replique la imagen</p>
+    <div class="bg bg-2 bg-no-repeat">
+
+    </div>
+
+    <p>Queremos que no se repita y este en el centro</p>
+    <div class="bg bg-2 bg-no-repeat bg-center">
+    </div>
+
+    <p>Queremos que se replique la imagen en el eje X</p>
+    <div class="bg bg-2 bg-x-repeat">
+    </div>
+
+    <p>La imagen cubre todo el elemento sin repetirse</p>
+    <div class="bg bg-2 bg-no-repeat bg-center">
+    </div>
+
+    <p>La imagen se vea completa dentro del elemento</p>
+    <div class="bg bg-2 bg-1-contain">
+    </div>
+
+    <p>Imagen centrada en el eje Y<p>
+        <div class="bg bg-2 bg-no-repeat bg-center-y">
+        </div>
+
+    <p>La imagen se vea completa dentro del elemento sin repetirse<p>
+    <div class="bg bg-1 bg-cover bg-center">
+    </div>
+
+    <p>Imagen completa dentro del elemento</p>
+    <div class="bg bg-1 bg-1-contain bg-no-repeat bg-center">
+    </div>
+
+    <p>Imagen fija al hacer scroll</p>
+    <div class="bg bg-1 bg-cover bg-center bg-fixed">
+    </div>
+
+    <p>Generar una imagen con fondo degradado en lugar con un color solido</p>
+    <div class="bg bg-2 bg-no-repeat bg-center-y bg-gradiente">
+    </div>
+</body>
+</html>

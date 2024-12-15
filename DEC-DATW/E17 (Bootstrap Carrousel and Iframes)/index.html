@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios - Carrusel, Iframes y NPM</title>
+    <!-- Cargar Bootstrap por CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Nuestro CSS -->
+     <style>
+        #map1 {
+            /* El VH es para adaptar el contenido del iframe a la mitad de la pantalla */
+            width: 100%;
+            height: 50vh;
+        }
+     </style>
+</head>
+
+<body>
+    <!-- Introducimos el Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <!-- Indicadores inferiores -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+               aria-label="Slide 1"></button>
+        <!-- El aria-current true nos sirve para indicar que esta es la pantalla principal del carrousel -->
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+               aria-current="true"  aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <!-- Diapositivas con las imagenes -->
+        <div class="carousel-inner">
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/desert3.jpg" class="d-block w-100" alt="Desierto-Zahara">
+        <!-- Texto de diapositiva -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Visita el Zahara</h2>
+                    <p>Vive una increible una experiencia en el desierto del Zahara.</p>
+                    <p><a class="btn btn-success" href="#">Más Informacion</a></p>
+                </div>
+            </div>
+        <!-- carousel-item active nos indica que es la imagen principal del carrousel -->
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="images/desert4.jpg" class="d-block w-100" alt="Cart-Dakar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Sumergete en una aventura en Dakarts</h2>
+                    <p>Vive una increible una experiencia en el desierto del Zahara.</p>
+                    <p><a class="btn btn-success" href="#">Más Informacion</a></p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/desert7.jpg" class="d-block w-100" alt="Desierto-Cleopatra">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Visita el Zahara</h2>
+                    <p>Vive una increible una experiencia en el desierto del Zahara.</p>
+                    <p><a class="btn btn-success" href="#">Más Informacion</a></p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/desert2.jpg" class="d-block w-100" alt="Zorrillo-Desierto">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Conoce nuestra exótica faúna de Zorrilos</h2>
+                    <p>Vive una increible una experiencia en el desierto del Zahara.</p>
+                    <p><a class="btn btn-success" href="#">Más Informacion</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Botones de anterior y siguiente -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Inclusion del ifram de Google Maps (CPIFP Los Enlaes) -->
+     <div class="container-fluid">
+        <h2>CPIFP Los Enlaces</h2>
+        <iframe id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5963.016209677729!2d-0.9278032209740077!3d41.64476271650524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd596b22f6b9f321%3A0xd6fc91a106797562!2sCPIFP%20Los%20Enlaces!5e0!3m2!1ses!2ses!4v1732697716028!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            <!-- Esto seria al equivalente del alt de las imagenes, pero en Iframe -->
+            <p>Son soporte para tu navegador</p>
+        </iframe>
+    <!-- Iframe de u video de Youtube -->
+     <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/wupToqz1e2g?si=rch3HAg38c_GgePr" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 </div>
+            </div>
+            <div class="col-md">
+                <h2>Video Carl Sagan</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus architecto, natus ratione assumenda labore dolor dicta nisi beatae? Ipsa officiis, iste expedita nam vitae accusamus omnis at vel est laudantium?</p>
+            </div>
+        </div>
+     </div>
+    </div>
+        <!-- Cargamos el Script en Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+</html>

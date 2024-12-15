@@ -1,0 +1,17 @@
+
+
+
+.estilo_tabla{
+    border: 1px solid black;
+    width: 75%;
+    margin: 25 auto;
+    padding: 5px;
+    background-color: white;
+    color:#2874a6 ;
+   /*Lo dejo comentado para ver los bordes duplicados, border-collapse: collapse;*/ 
+}
+
+.estilo_titulos{
+    background-color:  #2874a6 ;
+    color: white;
+}

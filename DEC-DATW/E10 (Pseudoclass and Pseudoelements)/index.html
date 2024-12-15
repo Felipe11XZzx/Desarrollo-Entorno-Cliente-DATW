@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10 - Pseudoclases y Pseudoelementos</title>
+    <style>
+        /*PSEUDO CLASES*/
+        a {
+            color: orange;
+            text-decoration: none;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 75%;
+        }
+
+        tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        tr:nth-child(odd) {
+            background-color: grey;
+        }
+
+        tr:nth-child(even) {
+            background-color: aliceblue;
+        }
+
+        tr:first-child {
+            background-color: black;
+            color: ghostwhite;
+        }
+
+        tr:last-child {
+            background-color: #2874a6;
+            color: aliceblue;
+        }
+
+        /*CUANDO ESTE EL RATON SOBRE EL LINK CAMBIA DE COLOR*/
+        a:hover {
+            text-decoration: underline;
+            color: navy;
+            cursor: row-resize; /*CAMBIAMOS EL RATON EN LA PAGINA*/
+        }
+
+        /*CUANDO HAGO CLICK SOBRE EL ELEMENTO SE PINTA EL FONDO DEL TEXTO*/
+        a:active {
+            background-color: rgb(107, 228, 208);
+        }
+
+        p > span {
+            color: red;
+            font-size: 2rem;
+        }
+
+        /*PSEUDO ELEMENTOS*/
+        p::first-letter {
+            color: red;
+            font-size: 2rem;
+        }
+
+        p::first-line {
+            color: navy;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio 10</h1>
+    <p><span>L</span>orem ipsum dolor, sit amet<a href="#">consectetur adipisicing elit. Aspernatur reprehenderit id </a> obcaecati, dolorum veniam ab nesciunt amet! At quia sapiente numquam similique pariatur laudantium dicta nulla quam, necessitatibus dolorum maxime.</p>
+    <h2>Tabla par e impar con pseudo elementos</h2>
+
+    <table>
+        <caption>Ejemplo tabla par e impar estilos</caption>
+        <tr>
+            <td>texto1</td>
+            <td>texto2</td>
+            <td>texto3</td>
+            <td>texto4</td>
+            <td>texto5</td>
+        </tr>
+        <tr>
+            <td>texto1</td>
+            <td>texto2</td>
+            <td>texto3</td>
+            <td>texto4</td>
+            <td>texto5</td>
+        </tr>
+        <tr>
+            <td>texto1</td>
+            <td>texto2</td>
+            <td>texto3</td>
+            <td>texto4</td>
+            <td>texto5</td>
+        </tr>
+        <tr>
+            <td>texto1</td>
+            <td>texto2</td>
+            <td>texto3</td>
+            <td>texto4</td>
+            <td>texto5</td>
+        </tr>
+        <tr>
+            <td>texto1</td>
+            <td>texto2</td>
+            <td>texto3</td>
+            <td>texto4</td>
+            <td>texto5</td>
+        </tr>
+    </table>
+</body>
+</html>

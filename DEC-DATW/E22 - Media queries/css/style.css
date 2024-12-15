@@ -1,0 +1,28 @@
+div{
+    height: 10rem;
+    width: 10rem;
+    background: green;
+}
+
+
+/* se cargará si se cumplen las condiciones:*/
+/* md (tamaño de tablet en vertical y móvil en horizontal)*/
+/* en este caso no afecta a tablet en vertical porque se declara el estilo más abajo*/
+@media screen and (min-width: 768px){
+    .ejemplo1{
+        background-color: orange;
+    }
+}
+/* md y orientación vertical*/
+@media screen and (min-width: 768px) and (orientation:portrait){
+    .ejemplo1{
+        background-color: red;
+    }
+}
+
+/* lg (tablet en horizontal)*/
+@media screen and (min-width: 992px){
+    .ejemplo1{
+        background-color: blue;
+    }
+}

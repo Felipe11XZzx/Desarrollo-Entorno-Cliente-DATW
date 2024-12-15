@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- INCLUSION DE METAS. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felipe Ortiz">
+    <meta name="keywords" content="Html5, Html, Bootstrap, Css, Font Awesome">
+    <meta name="description" content="Sweet_Code, P&acute;gina de gesti&oacute;n  de proyectos webs">
+    <title>Practica Examen 2</title>
+    <!-- IMPORTANDO LA LIBRERIA DE BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- IMPORTANDO LAS TIPOGRAFIAS ROBOTO, ROBOTO CONDENSED Y FUNNEL SANS DE GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- IMPORTANDO LA LIBRERIA DE FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- INCLUSION DE LOS FAVICONS PARA DIFERENTES DISPOSITIVOS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!-- ZONA NAVEGACION SWEET-CODE. -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img src="/images/logo.png" alt="Logo-Sweet-Code" class="d-inline-block align-text-top">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i>
+                                Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-solid fa-file"></i> P&acute;ginas
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Aviso Legal</a></li>
+                                <li><a class="dropdown-item" href="#">Aviso de Cookies</a></li>
+                                <li><a class="dropdown-item" href="#">Politica de Privacidad</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-list"></i> Cat&aacute;logo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-gear"></i> Configuraci&oacute;n</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- INCLUSION DE CARDS DE BOOTSRAP -->
+    <main>
+        <div class="row">
+            <h1>Cat&aacute;logo</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Catal&oacute;go</li>
+                </ol>
+            </nav>
+            <div class="col-md"> <!-- Se muestra como columna a partir de tablet verticas (md) -->
+                <div class="card">
+                    <img src="https://dummyimage.com/320x200/000/fff.png&text=Img.+fantasma" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Arquitectura</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary"><i class="fa-solid fa-eye"></i> Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna 2 -->
+            <div class="col-md"> <!-- Se muestra como columna a partir de tablet verticas (md) -->
+                <div class="card">
+                    <img src="https://dummyimage.com/320x200/000/fff.png&text=Img.+fantasma" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Decoraci&oacute;n</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary"> <i class="fa-solid fa-eye"></i> Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna 3 -->
+            <div class="col-md"> <!-- Se muestra como columna a partir de tablet verticas (md) -->
+                <div class="card">
+                    <img src="https://dummyimage.com/320x200/000/fff.png&text=Img.+fantasma" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Interiorismo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary"><i class="fa-solid fa-eye"></i> Visitar</a>
+                    </div>
+                </div><footer>
+        
+                </footer>
+            </div>
+        </div>
+    </main>
+
+    <!-- FORMULARIO CON BARRA DE BUSQUEDA Y FILTRO -->
+    <section>
+        <form>
+            <h2>Buscador</h2>
+            <div class="row">
+                <div class="col-md">
+                    <label for="exampleInputEmail1" class="form-label">Proyecto</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1">
+                </div>
+
+                <div class="col-md">
+                    <label for="exampleInputEmail2" class="form-label">Publicado</label>
+                    <select class="form-control" id="exampleInputEmail2">
+                        <option selected>No publicado</option>
+                        <option value="1">FP Emplea</option>
+                        <option value="2">Viajarsolo</option>
+                        <option value="3">Bonos Impulsa</option>
+                        <option value="4">Insvet</option>
+                        <option value="5">Luxotren</option>
+                        <option value="6">Disgan</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Buscar</button>
+        </form>
+    </section>
+    <!-- TABLA DE GESTION DE PROYECTOS -->
+     <section>
+        <table class="table table-striped table-sm">
+            <thead class="table-dark">
+                <tr>
+                    <th class="text-center" scope="col">Proyecto</th>
+                    <th class="text-center">Activo</th>
+                    <th class="text-center">Destacado</th>
+                    <th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">Fp Emplea</td>
+                    <td class="text-center"><span class="badge text-bg-success">Si</span></td>
+                    <td class="text-center"><span class="badge text-bg-success">Si</span></td>
+                    <td class="text-end">
+                            <a class="btn btn-secondary" href="#" role="button">
+                                <i class="fa-solid fa-file-word"></i> Editar</a>
+                            <a class="btn btn-danger" href="#" role="button" data-bs-toggle="modal"
+                                data-bs-target="#deleteModal">
+                                <i class="fa-solid fa-trash-can-arrow-up"></i> Borrar</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-center">Viajarsolo</td>
+                    <td class="text-center"><span class="badge text-bg-success">Si</span></td>
+                    <td class="text-center"><span class="badge text-bg-success">Si</span></td>
+                    <td class="text-end">
+                            <a class="btn btn-secondary" href="#" role="button">
+                                <i class="fa-solid fa-file-word"></i> Editar</a>
+                            <a class="btn btn-danger" href="#" role="button" data-bs-toggle="modal"
+                                data-bs-target="#deleteModal">
+                                <i class="fa-solid fa-trash-can-arrow-up"></i> Borrar</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-center">Bonos impulsa</td>
+                    <td class="text-center"><span class="badge text-bg-success">Si</span></td>
+                    <td class="text-center">No</td>
+                    <td class="text-end">
+                            <a class="btn btn-secondary" href="#" role="button">
+                                <i class="fa-solid fa-file-word"></i> Editar</a>
+                            <a class="btn btn-danger" href="#" role="button" data-bs-toggle="modal"
+                                data-bs-target="#deleteModal">
+                                <i class="fa-solid fa-trash-can-arrow-up"></i> Borrar</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-center">Insvet</td>
+                    <td class="text-center"><span class="badge text-bg-success">Si</span></td>
+                    <td class="text-center">No</td>
+                    <td class="text-end">
+                            <a class="btn btn-secondary" href="#" role="button">
+                                <i class="fa-solid fa-file-word"></i> Editar</a>
+                            <a class="btn btn-danger" href="#" role="button" data-bs-toggle="modal"
+                                data-bs-target="#deleteModal">
+                                <i class="fa-solid fa-trash-can-arrow-up"></i> Borrar</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-center">Luxotren</td>
+                    <td class="text-center"><span class="badge text-bg-success">Si</span></td>
+                    <td class="text-center"><span class="badge text-bg-success">Si</span></td>
+                    <td class="text-end">
+                            <a class="btn btn-secondary" href="#" role="button">
+                                <i class="fa-solid fa-file-word"></i> Editar</a>
+                            <a class="btn btn-danger" href="#" role="button" data-bs-toggle="modal"
+                                data-bs-target="#deleteModal">
+                                <i class="fa-solid fa-trash-can-arrow-up"></i> Borrar</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text-center">Disgan</td>
+                    <td class="text-center"><span class="badge text-bg-success">Si</span></td>
+                    <td class="text-center">No</td>
+                    <td class="text-end">
+                            <a class="btn btn-secondary" href="#" role="button">
+                                <i class="fa-solid fa-file-word"></i> Editar</a>
+                            <a class="btn btn-danger" href="#" role="button" data-bs-toggle="modal"
+                                data-bs-target="#deleteModal">
+                                <i class="fa-solid fa-trash-can-arrow-up"></i> Borrar</a>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <nav aria-label="...">
+            <ul class="pagination justify-content-end">
+              <li class="page-item active" aria-current="page">
+                <span class="page-link">1</span>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">6</a></li>
+            </ul>
+          </nav>
+     </section>
+    <!-- IMPLEMENTACION DEL FOOTER -->
+    <footer id="footer-sweet-code">
+        <p>&copy;SweetCode 2024</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html> 

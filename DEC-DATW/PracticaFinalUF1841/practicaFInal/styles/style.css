@@ -1,0 +1,43 @@
+.bg-ligth {
+    width: 100px;
+}
+
+.img-logo {
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    color: orange;
+}
+
+.carrusel-h {
+    font-family: "Oswald", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    color: white;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.nav-link {
+    color: orange;
+}
+
+.img-principal {
+    width: 100%;
+    height: 100;
+}
+
+#map-1 {
+    /* El VH es para adaptar el contenido del iframe a la mitad de la pantalla */
+    width: 100%;
+    height: 30vh;
+}

@@ -1,0 +1,52 @@
+body {
+    font-family: "Poppins", sans-serif;
+     font-weight: 900;
+     font-style: italic;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase; /* CONVERTIR LAS LETRAS A MAYUSCULAS */
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: lighter; /* PARA HACER MAS DELGADA LA TIPOGRAFIA. */
+}
+
+h2 {
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #C00;
+}
+
+p {
+   color: #333;
+   font: 1.2rem/2rem serif;
+   text-align: justify;
+   text-indent: 1rem;
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 500;
+   font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #C00;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.special-letter::first-letter {
+    font-size: 3em;
+    background-color: red;
+    margin: .25rem;
+    color: white;
+    box-shadow: -0.25rem -0.25rem .5rem black;
+    text-shadow: -0.25rem -0.25rem 0 gray;
+    font-family: "flower_display_demoregular";
+}

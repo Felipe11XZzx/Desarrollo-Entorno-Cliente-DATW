@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+    font-family: serif;
+}
+
+.nav-header {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.nav-header a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin: .025rem, 1rem;
+}
+
+h1, h2, h3  {
+    color: navy;
+    font-family: sans-serif;
+}
+
+.nav-header a:hover {
+    background-color: navy;
+}
+
+.nav-header ul li {
+    display: inline-block;
+}
+
+.nav-header ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+}

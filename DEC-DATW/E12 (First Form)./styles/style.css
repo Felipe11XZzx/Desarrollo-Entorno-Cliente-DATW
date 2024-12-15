@@ -1,0 +1,22 @@
+
+.form-row {
+    margin-bottom: 1rem;
+}
+
+.form.label, .form-control {
+    display: block;
+}
+
+.form-label {
+    margin-bottom: .25rem;
+}
+
+.form-control {
+    width: 100%;
+    border-radius: .125rem;
+    border: 1px solid navy;
+}
+
+form {
+    width: 50%;
+}

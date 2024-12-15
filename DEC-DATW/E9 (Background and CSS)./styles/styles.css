@@ -1,0 +1,40 @@
+h1 {
+    background: url('../images/bg.jpg');
+    background-color: crimson;
+    color: aliceblue;
+    padding: 10px 20px;
+    /*USO DE LOS PADDING Y MARGING EN CSS, 1REM ES IGUAL AL TAMAÑO ESTANDAR DE LA FUENTE DEL NAVEGADOR
+    1REM = 16 PIXELES QUE ES EL TAMAÑO FUENTE POR DEFECTO.*/
+    /* padding: 10px top, 20px rigth, 10px bottom, 20px left. */
+    border-bottom: 3px dotted blue;
+    border-top: 3px dotted orange;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header-1{
+    margin-top: 40px;
+}
+
+.header-1 p {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    border-left: 2px solid blueviolet;
+}
+
+.header-2 {
+    width: 50%;
+    background-color: blue;
+    color: aliceblue;
+}
+.header-2 h2 {
+    background-color: blueviolet;
+    color: aliceblue;
+    margin-bottom: 12px;
+    width: 50%;
+    border-bottom: .25rem solid red;
+}
+
+.header-2 p {
+    font-size: 1rem;
+}
