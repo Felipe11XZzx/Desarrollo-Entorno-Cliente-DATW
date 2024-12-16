@@ -3,18 +3,15 @@
 Bienvenido a este repositorio de Desarrollo en Entorno Cliente. Este proyecto contiene una colección de ejercicios, prácticas y recursos relacionados con el desarrollo web. 💻🔧
 
 🔖 Tecnologías utilizadas
-
 HTML5: Para la estructura y contenido del proyecto.
 CSS3: Para diseños atractivos y estilizados.
 
 🔍 Características principales
-
 Ejercicios prácticos para entender los conceptos clave del desarrollo en cliente.
 Diseños responsivos y adaptables.
 Código organizado en carpetas y archivos para una fácil navegación.
 
 💡 Proyectos destacados
-
 Este repositorio incluye los siguientes proyectos principales:
 
 Sitio Web Estático:
